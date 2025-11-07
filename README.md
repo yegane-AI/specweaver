@@ -1,4 +1,5 @@
 # SpecWeaver (AXI-Lite <-> Wishbone edition)
+## An AI Agent for Protocol Compatibility
 
 Docs -> DSL -> checks -> code. Reads mini-specs, loads YAML DSLs, checks compatibility (Z3-free heuristics here),
 and generates a small AXI-Lite → Wishbone bridge skeleton + SVA.
