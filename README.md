@@ -1,4 +1,4 @@
-# SpecWeaver (AXI-Lite <->> Wishbone edition)
+# SpecWeaver (AXI-Lite <-> Wishbone edition)
 
 Docs -> DSL -> checks -> code. Reads mini-specs, loads YAML DSLs, checks compatibility (Z3-free heuristics here),
 and generates a small AXI-Lite → Wishbone bridge skeleton + SVA.
