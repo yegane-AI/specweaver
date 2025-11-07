@@ -1,0 +1,10 @@
+protocol: Wishbone-Classic
+data_width: 32
+addr_width: 32
+addressing: word
+handshake: wishbone_classic
+byte_enable: SEL
+byte_enable_width: 4
+max_outstanding: 1
+description: |
+  Minimal Wishbone Classic (single-beat).

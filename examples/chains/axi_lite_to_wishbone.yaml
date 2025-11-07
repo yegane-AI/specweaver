@@ -1,0 +1,3 @@
+contiguous_wstrb: true
+allow_split_writes: false
+buffer_depth: 0

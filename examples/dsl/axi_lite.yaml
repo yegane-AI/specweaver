@@ -1,0 +1,10 @@
+protocol: AXI-Lite
+data_width: 32
+addr_width: 32
+addressing: byte
+handshake: axi_valid_ready
+byte_enable: WSTRB
+byte_enable_width: 4
+max_outstanding: 1
+description: |
+  Minimal AXI-Lite profile (single-beat).
