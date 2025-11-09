@@ -3,7 +3,7 @@
 ## An AI Agent for Protocol Compatibility
 
 Docs -> DSL -> checks -> code. Reads mini-specs, loads YAML DSLs, checks compatibility (Z3-free heuristics here),
-and generates a small AXI-Lite → Wishbone bridge skeleton + SVA..
+and generates a small AXI-Lite → Wishbone bridge skeleton + SVA.
 
 ## Install
 ```bash
@@ -18,3 +18,5 @@ python -m specweaver.cli synthesize --src examples/dsl/axi_lite.yaml --dst examp
 ```
 
 Outputs a report and emits `axi_lite_to_wishbone_bridge.sv` + `axi_lite_to_wishbone_bridge_sva.sv`.
+
+In progress: Making the model even more autonomous.  
