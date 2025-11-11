@@ -3,8 +3,8 @@ from pathlib import Path
 
 def axi_lite_to_wishbone_sv(module_name="axi_lite_to_wishbone_bridge"):
     return dedent(f"""
-    // {module_name}.sv
-    // Minimal AXI-Lite (32) → Wishbone Classic (32) single-beat write bridge.
+    // {module_name}.sv              Verilog will be supported too. 
+    // Minimal AXI-Lite (32) -> Wishbone Classic (32) single-beat write bridge.
 
     module {module_name} (
       input  logic         clk,
