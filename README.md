@@ -1,4 +1,4 @@
-# SpecWeaver (AXI-Lite <-> Wishbone edition)
+# SpecWeaver (AXI-Lite <-> Wishbone edition).
 
 ## In Progress & Next Up (actively building)
 
