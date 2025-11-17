@@ -1,6 +1,6 @@
 # SpecWeaver (AXI-Lite <-> Wishbone edition)
 
-## In Progress & Next Up (actively building)
+## In Progress & Next Up (actively building).
 
 I’m extending SpecWeaver beyond the current AXI-Lite <-> Wishbone write path..
 
