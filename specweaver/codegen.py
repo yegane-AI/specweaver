@@ -1,5 +1,6 @@
 from textwrap import dedent
 from pathlib import Path
+##adding timing soon
 
 def axi_lite_to_wishbone_sv(module_name="axi_lite_to_wishbone_bridge"):
     return dedent(f"""
