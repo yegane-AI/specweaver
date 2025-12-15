@@ -1,5 +1,5 @@
 from .schema import ProtocolDSL
-# other libraries might be needed
+# other libraries might be needed.
 def _contiguous(mask: int) -> bool:
     if mask == 0: return False
     while (mask & 1) == 0:
