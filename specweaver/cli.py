@@ -4,7 +4,7 @@ from .checks import check_compat_axi_to_wb
 from .codegen import write_bridge
 from . import __version__
 from .utils import console
-import time as time ## I have some ideas about timing.
+import time as time ## I have some ideas about timing
 
 app = typer.Typer(add_completion=False, help=f"SpecWeaver v{__version__} — AXI-Lite ↔ Wishbone")
 
