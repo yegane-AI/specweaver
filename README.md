@@ -2,7 +2,7 @@
 
 ## In Progress & Next Up (actively building)
 
-I’m extending SpecWeaver beyond the current AXI-Lite <-> Wishbone write path.
+I’m extending SpecWeaver beyond the current AXI-Lite <-> Wishbone write path..
 
 ### Short-term (good first issues)
 - [ ] **Add read support**: AXI-Lite `AR/R` -> Wishbone read cycle (mirror of write FSM, no bursts).
