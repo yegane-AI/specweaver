@@ -4,7 +4,7 @@
 
 I’m extending SpecWeaver beyond the current AXI-Lite <-> Wishbone write path.
 
-### Short-term (good first issues).
+### Short-term (good first issues)
 - [ ] **Add read support**: AXI-Lite `AR/R` -> Wishbone read cycle (mirror of write FSM, no bursts).
 - [ ] **Split-write option**: Implement `allow_split_writes: true` in codegen (two WB cycles if AXI write crosses a word boundary) and update the checker’s message.
 - [ ] **cocotb smoke test**: Simple memory model + bridge stimulus for a few `(addr_low2, WSTRB)` cases (pass/fail expectations).
